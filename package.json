@@ -18,6 +18,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "koa-send": "~4.1.0"
+    "koa-send": "git+https://git@github.com/galkin/send.git#30aca4bfc7b768608982644b026161e65ca7069c"
   }
 }

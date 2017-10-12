@@ -27,7 +27,8 @@ function serve (opts) {
 
     let options = opts || {}
     options.root = path.resolve(options.rootDir || process.cwd())
-    options.index = options.index || "index.html"
+    options.generateIndex = options.generateIndex || false;
+    options.index = options.index || options.generateIndex ? false : "index.html";
     const log = options.log || false
 
     return async (ctx, next) => {

@@ -22,6 +22,8 @@ app.use(require('koa-static-server')(options))
 
 ### Options
 
+ - `index` Name of the index file to serve automatically when visiting the root location. (defaults to none)
+ - [`generateIndex`](#generateIndex) Function to generate index file for folder.
  - `rootDir` {string} directory that is to be served
  - `rootPath` {string} optional rewrite path
  - `notFoundFile` {string} optional default file to serve if requested static is missing
