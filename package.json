@@ -2,7 +2,7 @@
   "name": "koa-static-server",
   "description": "Static file serving middleware for koa with directory, rewrite and index support",
   "repository": "https://github.com/pkoretic/koa-static-server",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "keywords": [
     "koa",
     "middleware",
@@ -18,6 +18,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "koa-send": "git+https://git@github.com/galkin/send.git#30aca4bfc7b768608982644b026161e65ca7069c"
+    "koa-send": "git+https://git@github.com/Damaged-Organic/send.git#d1b87dd6214d7e6fa97a514eb2c935936f40dcf1"
   }
 }
